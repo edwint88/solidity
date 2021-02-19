@@ -14,10 +14,10 @@ contract c {
 // ====
 // compileViaYul: also
 // ----
-// storage: empty
+// storage.isEmpty -> bool.True
 // fill() ->
-// storage: nonempty
+// storage.isEmpty -> bool.False
 // halfClear() ->
-// storage: nonempty
+// storage.isEmpty -> bool.False
 // fullClear() ->
-// storage: empty
+// storage.isEmpty -> bool.True

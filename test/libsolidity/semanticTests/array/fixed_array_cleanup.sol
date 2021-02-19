@@ -11,8 +11,8 @@ contract c {
 // compileViaYul: also
 // compileToEwasm: also
 // ----
-// storage: empty
+// storage.isEmpty -> bool.True
 // fill() ->
-// storage: nonempty
+// storage.isEmpty -> bool.False
 // clear() ->
-// storage: empty
+// storage.isEmpty -> bool.True
